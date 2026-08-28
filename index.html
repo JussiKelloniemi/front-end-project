@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="/js/main.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="main-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">About Me</a></li>
+                    <li>
+                        <a href="#" class="btn">
+                            <i class="fas fa-user"></i>
+                            Log in
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Mobile -->
+
+        <button class="hamburger-button">
+            <div class="hamburger-line"></div>
+            <div class="hamburger-line"></div>
+            <div class="hamburger-line"></div>
+        </button>
+        <div class="mobile-menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Me</a></li>
+                <li><a class="btn" href="#"><i class="fas fa-user"></i>Log In</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-heading text-xxl">
+                    Albums I keep coming back to
+                </h1>
+                <p class="hero-text">
+                This is a page where I list out my favorite albums that I listen to all the time. These albums vary through different genres from psychedelic rock to death metal. Updates for favourite albums and new playlists are planned.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam egestas dictum erat non efficitur. Proin sed facilisis mi, nec blandit orci. Vivamus fringilla efficitur odio id condimentum. Proin in suscipit diam. Nullam sit amet nisi quis ligula vulputate gravida nec eget ex. Curabitur et scelerisque ex, quis aliquam nulla.
+            </p>
+            </div>
+        </div>
+    </section>
+
+   <!-- Album of the month -->
+    <section class="album-of-the-month">
+        <h2 class="month-header text-xl">
+            Album of the month
+        </h2>
+        <div class="album-content">
+            <div class="album-cover">
+                <a href="#"><img src="images/Mercenary_(album)_cover.jpg" alt="album cover" class="cover-image"></a>
+            </div>
+            <div class="album-info">
+                <h4 class="album-name">Mercenary</h4>
+                <p class="artist">
+                    Bolt Thrower
+                </p>
+                <p class="description text-md">
+                    This album was one of my most listened album during this month. Mercenary was released 1998 and it is Bolt Thrower's 6th album. 
+                </p>
+            </div>
+        </div>
+        </section>
+
+    <!-- Favourite albums -->
+    
+    <section class="favourite-albums">
+        <div class="container">
+            <h3 class="favourite-header text-xl">
+                My Favourite albums</h3>
+            <div class="favourite-grid">
+                <div class="card">
+                    <a href="#">
+                        <img src="images/Mgla_-_Exercises_in_Futility_cover_art.jpg" alt="cover-image" class="cover-image">
+                    </a>
+                    <p>Exercises in Futility</p>
+                    <p class="text-md">Mgła</p>
+                </div>
+                <div class="card">
+                    <a href="#">
+                        <img src="images/Wolverine_Blues_cover.jpg" alt="cover-image" class="cover-image">
+                    </a>
+                    <p>Wolverine Blues</p>
+                    <p class="text-md">Entombed</p>
+                </div>
+                <div class="card">
+                    <a href="#">
+                        <img src="images/Our_Days_Mind_the_Tyme.jpg" alt="cover-image" class="cover-image">
+                    </a>
+                    <p>Our Days Mind the Tyme</p>
+                    <p class="text-md">The Dolly Rocker Movement</p>
+                </div>
+                <div class="card">
+                    <a href="#">
+                        <img src="images/Ascendancy_album_cover.jpg" alt="cover-image" class="cover-image">
+                    </a>
+                    <p>Ascendancy</p>
+                    <p class="text-md">Trivium</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Top Playlist -->
+    <section class="playlist">
+        <div class="container">
+            <div class="iframe">
+                <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/2T9EvVYa0RvhBganupLnrd?utm_source=generator&si=aea8f37ce6f84827" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+
+    <footer class="footer bg-dark">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="card">
+                    <h4>Subscribe to Newsletter</h4>
+                    <p class="text-sm">Get updates on new recommendations to your email</p>
+                    <form>
+                        <input type="email" id="email" placeholder="Enter your email">
+                        <button type="submit" class="btn btn-primary btn-block">Submit</button>
+                    </form>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-spotify"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+                
+                <div>
+                <h4>My page</h4>
+                <ul>
+                    <li><a href="#">About Me</a></li>
+                </ul>
+                </div>
+                <div>
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Previous albums of the month</a></li>
+                        <li><a href="#">Spotify playlists</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Contact me</h4>
+                    <ul>
+                        <li><a href="#">jussi.kelloniemi@student.lut.fi</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
