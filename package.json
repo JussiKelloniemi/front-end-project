@@ -1,0 +1,12 @@
+{
+  "name": "front-end-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "homepage": "https://JussiKelloniemi.github.io/front-end-project",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
