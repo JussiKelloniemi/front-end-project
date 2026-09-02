@@ -343,10 +343,11 @@ img {
 /* Mobile */
 
 .mobile-menu {
+    display: none;
     position: fixed;
     top: 0;
     right: -300px;
-    width: 320px;
+    width: 400px;
     height: 100%;
     z-index: 2000;
     background: var(--dark-color);
@@ -383,6 +384,10 @@ img {
 @media (max-width: 670px)  {
     .navbar .main-menu {
         display: none;
+    }
+
+    .mobile-menu {
+        display: block;
     }
 
     .navbar .hamburger-button {
