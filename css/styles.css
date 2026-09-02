@@ -130,7 +130,7 @@ img {
 /* Favourite albums */
 
 .favourite-albums {
-    padding: 40px 0;
+    padding: 0px 0;
     color: aliceblue;
 }
 
@@ -349,8 +349,8 @@ img {
     display: none;
     position: fixed;
     top: 0;
-    right: -600px;
-    width: 380px;
+    right: -550px;
+    width: 500px;
     height: 100%;
     z-index: 2000;
     background: var(--dark-color);
@@ -429,8 +429,15 @@ img {
     }
 
     .favourite-albums .favourite-grid {
+        display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 5px;
+        gap: 10px;
+        margin: 20px 10px;
+    }
+
+    .favourite-albums .cover-image {
+        max-width: 100%;
+        margin: auto;
     }
 
     .footer .card {
