@@ -334,12 +334,13 @@ img {
 /* Hamburger button */
 
 .hamburger-button {
+    position: relative;
     display: none;
     background: none;
     border: none;
     cursor: pointer;
     padding: 10px;
-    z-index: 1000;
+    z-index: 3000;
     margin: auto;
 }
 
@@ -358,7 +359,7 @@ img {
     right: -300px;
     width: 250px;
     height: 100%;
-    z-index: 100;
+    z-index: 1000;
     background: var(--dark-color);
     box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
     transition: right 0.3s ease-in-out;
