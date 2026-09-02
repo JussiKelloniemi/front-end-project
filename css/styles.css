@@ -346,7 +346,7 @@ img {
     display: none;
     position: fixed;
     top: 0;
-    right: -300px;
+    right: -600px;
     width: 400px;
     height: 100%;
     z-index: 2000;
@@ -406,7 +406,7 @@ img {
     }
     
     .album-of-the-month {
-        max-width: 600px;
+        max-width: 100%;
     }
 
     .album-of-the-month .month-header {
