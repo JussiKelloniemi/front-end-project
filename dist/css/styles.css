@@ -108,6 +108,7 @@ img {
 
 .album-of-the-month .album-content {
     display: flex;
+    flex-wrap: wrap;
     gap: 30px;
     margin: 10px 10px;
     padding: 20px 10px;
@@ -176,16 +177,18 @@ img {
 
 /* Playlist */
 
-.playlist {
+.playlist .container {
     display: flex;
     padding: 20px 0;
     justify-content: center;
     align-items: center;
-    margin: 20px 0;
+    margin: auto;
+    max-width: 700px;
 }
 
 .playlist .iframe {
-    width: 700px;
+    width: 100%;
+    margin: auto;
 }
 
 
@@ -347,7 +350,7 @@ img {
     position: fixed;
     top: 0;
     right: -600px;
-    width: 400px;
+    width: 380px;
     height: 100%;
     z-index: 2000;
     background: var(--dark-color);
@@ -409,6 +412,10 @@ img {
         max-width: 100%;
     }
 
+    .album-of-the-month .album-cover {
+        max-width: 40%;
+    }
+
     .album-of-the-month .month-header {
         max-width: 100%;
         text-align: center;
@@ -424,18 +431,6 @@ img {
     .favourite-albums .favourite-grid {
         grid-template-columns: repeat(2, 1fr);
         gap: 5px;
-    }
-
-    .playlist {
-        width: 100%;
-        margin: 20px 0;
-        display: flex;
-        justify-content: center;
-    }
-
-    .playlist .iframe {
-        display: block;
-        max-width: 500px;
     }
 
     .footer .card {
