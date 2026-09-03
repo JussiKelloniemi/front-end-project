@@ -416,11 +416,11 @@ img {
     }
     
     .album-of-the-month {
-        max-width: 100%;
+        max-width: 80%;
     }
 
     .album-of-the-month .album-cover {
-        max-width: 40%;
+        max-width: 100%;
     }
 
     .album-of-the-month .month-header {
